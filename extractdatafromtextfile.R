@@ -5,7 +5,7 @@ setwd("C:\\Users\\mmachin\\Desktop")
 ###############################
 line <- readLines("alfonso.txt")
 line
-
+write.csv(line, "alfonso.csv", row.names = F)
 
 #####File public
 
